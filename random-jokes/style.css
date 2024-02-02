@@ -1,0 +1,35 @@
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.container {
+  width: clamp(50px, 80%, 500px);
+  height: auto;
+  background-color: whitesmoke;
+  padding: 20px;
+}
+
+.btn {
+  outline: none;
+  border: none;
+  padding: 3px 7px;
+  background-color: rgb(127, 37, 37);
+  color: #fff;
+}
+
+.result {
+  font-size: 1.5rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
